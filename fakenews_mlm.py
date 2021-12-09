@@ -20,7 +20,7 @@ parser.add_argument('--epochs', default=20, type=int, help='training epochs')
 parser.add_argument('--mode', default='normal', type=str, help='normal / smart_batch')
 args = parser.parse_args()
 
-with open('cnn50_dm50_sent_token.txt', 'r') as f:
+with open('no_split_news.txt', 'r') as f:
         news_data = f.readlines()
 
 bert_model_name = 'bert-base-uncased'
