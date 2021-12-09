@@ -1,4 +1,3 @@
-
 def good_update_interval(total_iters, num_desired_updates):
     '''
     This function will try to pick an intelligent progress update interval 
